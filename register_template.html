@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:http="">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="basic.css">
+    <script type="text/javascript" src="script.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
+    <!-- Latest compiled JavaScript Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Latest Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+    <title>Index</title>
+</head>
+<body>
+    <div class="container ">
+        <!-- Navbar -->
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="index_template.html" class="nav-link px-2 link-secondary">Home</a></li>
+            </ul>
+
+            <div class="col-md-3 text-end">
+                <a href="login_template.html"><button type="button" class="btn btn-outline-dark me-2">Login</button></a>
+                <a href="register_template.html"><button type="button" class="btn btn-dark">Register</button></a>
+            </div>
+        </header>
+        <!-- Navbar -->
+
+        <form class="shadow p-3 mb-5 bg-white rounded">
+            <h1 class="mt-2">Register</h1>
+            <div class="form-row ">
+                <div class="form-group col-md-6 mb-3">
+                    <label for="firstName">First Name</label>
+                    <input type="email" class="form-control" id="firstName">
+                </div>
+                <div class="form-group col-md-6 mb-3">
+                    <label for="lastName">Last Name</label>
+                    <input type="password" class="form-control" id="lastName" >
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="InputEmail" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="inputPassword" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword">
+                <div id="passwordHelpBlock" class="form-text">
+                    Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="repeatPassword" class="form-label">Repeat Password</label>
+                <input type="password" class="form-control" id="repeatPassword">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="rememberMe">
+                <label class="form-check-label" for="rememberMe">Remember me</label>
+            </div>
+            <button type="submit" class="btn btn-dark">Submit</button>
+        </form>
+    </div>
+</body>
+
+<footer class="footer fixed-bottom bg-dark text-center text-white">
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        made by Jorge &copy
+    </div>
+    <!-- Copyright -->
+</footer>
+</html>
